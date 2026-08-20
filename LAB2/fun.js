@@ -11,9 +11,13 @@
  };
 
  function main (){
-   console.log(" main");
-    f1();
-    f2();
-    f3();
- console.log( "end");
+   console.log("main 😊");
+   setTimeout(f1,1000);
+   setTimeout(f2,700);
+   setTimeout(f1, 1000);
+   //setINterval(f1,1000)
+    //setImmediate (f2);
+    process.nextTick (f3);
+ console.log( "end 👻");
  }
+ main ();
