@@ -20,3 +20,22 @@
  - 403 -> forbidden 
  - 404 -> Not Found
  - 500 -> Internal Server Error
+
+ ## Server can send to the client
+ 1. html content -> prg2, prg3 
+ 1. html file ->prg5
+ 2. json data ->prg ->4
+ 3. plain  file
+ 4. is file
+ 5. Js file
+ 6. ant file to download 
+ 7. etc
+
+ ## Type of Information 
+ 1. test/html -> for html file/content
+ 2. Text/json -> for json data
+ 3. text/css -> for css file/contents
+ 4. application -> for file
+ 5. test/plain -> for plain test file
+
+ ###  Note: .gitignor -> this file contains the list of files or folder that is not added to git, these file.folder will not push on GitHub
