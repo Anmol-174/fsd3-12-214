@@ -24,7 +24,7 @@ task.on("greet",login);
 task.on("greet",working);
 task.on("greet",checkout);
 task.once("exit", () =>{
-    console.log( "Systen shutting down");
+    console.log( "Systen shutting downn");
 });
 
 task.emit("greet", "Anmol Prajapati");
