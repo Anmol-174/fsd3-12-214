@@ -7,4 +7,4 @@
     console.log( "Button clicked ");
  });
 
- button.emit("click");
+ button.emit("clickk");
